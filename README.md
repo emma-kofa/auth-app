@@ -1,2 +1,2 @@
 # auth-app
-Simple authentication with PHP's laravel
+Simple authentication system with PHP's laravel
