@@ -69,4 +69,8 @@ class AuthController extends Controller
             return response()->json(['error' => 'Failed to refresh token'], 400);
         }
     }
+
+    public function me(){
+        return response()->json(Auth::user());
+    }
 }
